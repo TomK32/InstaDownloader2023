@@ -12,8 +12,8 @@
 
 export enum QuerySelectors {
     // Post
-    postWrapper = '.M9sTE, .NI8nC',
-    postBookmark = '.wmtNn',
+    postWrapper = 'article',
+    postBookmark = '._aamz',
     postLink = '.c-Yi7',
     postSliderIndicator = '.JSZAJ, .ijCUd',
     postSliderActive = '.XCodT',

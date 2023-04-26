@@ -100,7 +100,7 @@ export class PostDownloader extends Downloader {
         const bookmarkElement: HTMLElement = element.querySelector(QuerySelectors.postBookmark) as HTMLElement;
         const downloadButton: HTMLElement = document.createElement('span');
         downloadButton.classList.add('post-download-button');
-        bookmarkElement.appendChild(downloadButton);
+        bookmarkElement.after(downloadButton);
 
         downloadButton.onclick = () => PostDownloader.downloadContent(element);
     }

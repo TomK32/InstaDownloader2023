@@ -29,10 +29,10 @@ export class PostDownloader extends Downloader {
     private static async downloadContent(element: HTMLElement): Promise<void> {
         const link = (element.querySelector(QuerySelectors.postLink) as HTMLAnchorElement).href;
         const index = getSliderIndex(element);
-        log(['Image index: ', index]);
+        log(['Image index:', index]);
 
         const response = await getMedia(link, index);
-        log(['Extracted image: ', response]);
+        log(['Extracted image:', response]);
 
         const downloadMessage: DownloadMessage = {
             imageURL: response.mediaURL,

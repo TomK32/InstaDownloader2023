@@ -14,9 +14,9 @@ export enum QuerySelectors {
     // Post
     postWrapper = 'article',
     postBookmark = '._aamz',
-    postLink = '.c-Yi7',
-    postSliderIndicator = '.JSZAJ, .ijCUd',
-    postSliderActive = '.XCodT',
+    postLink = '._a6hd',
+    postSliderIndicator = '._aamj',
+    postSliderActive = '._acnb._acnf',
 
     // Story
     storyImage = '.y-yJ5',
@@ -24,11 +24,11 @@ export enum QuerySelectors {
 
     // Account, Hover, Explore, Reels
     imagePreview = '._bz0w, .pKKVh, .Tjpra > a',
-    accountName = '._7UhW9.fKFbl.yUEEX.KV-D4.fDxYl',
+    accountName = '._aaqt',
     topRightIconRow = '._47KiJ, .r9-Os, .J5g42',
 
     // Account Image
-    accountImageWrapper = '.RR-M-, .M-jxE',
+    accountImageWrapper = '._aamz',
 
     // Bulk download
     loadingButton = '.By4nA',

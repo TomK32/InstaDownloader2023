@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "IG Downloader",
-  "version": "4.6.1",
+  "name": "InstaDownloader2023",
+  "version": "5.0.0",
   "icons": {
     "512": "icons/instagram.png"
   },
@@ -43,7 +43,7 @@
   ],
   "applications": {
     "gecko": {
-      "id": "HuiiBuh.InstagramDownloader@github.com"
+      "id": "Tomk32.InstaDownloader2023@github.com"
     }
   }
 }
